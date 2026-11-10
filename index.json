@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "descripcion": "Catálogo de recursos en la nube para EditorIA",
+  "recursos": [
+    {
+      "id": "sfx_whoosh_01",
+      "tipo": "sfx",
+      "categoria": "transicion",
+      "nombre": "Whoosh Rápido de Corte",
+      "tags": ["barrido", "aire", "rapido", "corte", "dinamico", "whoosh"],
+      "duracion": 0.35,
+      "url": "https://raw.githubusercontent.com/randyeuceda2-collab/editoria-cloud-assets/main/sfx/whoosh.wav"
+    },
+    {
+      "id": "sfx_impacto_01",
+      "tipo": "sfx",
+      "categoria": "impacto",
+      "nombre": "Golpe Grave Thud",
+      "tags": ["peligro", "miedo", "alerta", "grave", "sorpresa", "rojo", "boom", "impacto"],
+      "duracion": 0.45,
+      "url": "https://raw.githubusercontent.com/randyeuceda2-collab/editoria-cloud-assets/main/sfx/impact.wav"
+    },
+    {
+      "id": "sfx_moneda_01",
+      "tipo": "sfx",
+      "categoria": "recompensa",
+      "nombre": "Ding Metálico Cash",
+      "tags": ["dinero", "cifra", "ganar", "verde", "exito", "porcentaje", "coin", "ding"],
+      "duracion": 0.30,
+      "url": "https://raw.githubusercontent.com/randyeuceda2-collab/editoria-cloud-assets/main/sfx/coin.wav"
+    }
+  ],
+  "presets_fx": [
+    {
+      "id": "fx_zoom_in_suave",
+      "tipo": "zoom",
+      "nombre": "Ken Burns Lento",
+      "zoom_max": 1.12,
+      "tags": ["acercamiento", "retencion", "suave"]
+    },
+    {
+      "id": "fx_screen_shake_impacto",
+      "tipo": "shake",
+      "nombre": "Sacudida de Corte",
+      "fuerza": 16,
+      "duracion": 0.35,
+      "tags": ["temblor", "impacto", "transicion", "brusco"]
+    }
+  ]
+}
